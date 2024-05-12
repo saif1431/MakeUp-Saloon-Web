@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+.appointmetn {
+  width: 100vw;
+  height: 80vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointmetn h1 {
+  font-size: 5.2vw;
+  font-weight: 100;
+  color: #AE887B;
+  font-family: "Dancing Script", cursive;
+}
+
+.appointmetn p {
+  font-size: 1.5vw;
+  margin-top: 1.5vw;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 200;
+}
+
+.appointmetn .skin-btn button {
+  width: 15vw;
+  height: 4vw;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #555;
+  outline: none;
+  color: #000;
+  font-size: 1.2vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  cursor: pointer;
+  margin-top: 1vw;
+}
+
+.skin-btn i {
+  background-color: #E0E0E0;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.pacakage {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 3vw;
+}
+
+.pack {
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pacakage .pacakage-text {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pacakage-text h1 {
+  font-size: 4vw;
+  font-weight: 200;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: #AE887B;
+  margin-bottom: 2vw;
+}
+
+.pacakage-text p {
+  font-size: 1.3vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-optical-sizing: auto;
+  color: #667297;
+  margin-bottom: 2vw;
+}
+
+.pacakage-text h5 {
+  font-size: 1.8vw;
+  font-weight: 700;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-optical-sizing: auto;
+  color: #AE887B;
+  margin-bottom: 1vw;
+}
+
+.pacakage-btn button {
+  width: 15vw;
+  height: 4vw;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #555;
+  outline: none;
+  color: #000;
+  font-size: 1.2vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  cursor: pointer;
+}
+
+.pacakage-btn i {
+  background-color: #E0E0E0;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.pacakage .pacakage-img {
+  width: 45%;
+  height: 100%;
+}
+
+.pacakage-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pacakage-img::before {
+  content: "";
+  position: absolute;
+  background: #EFDDCF;
+  z-index: -1;
+  width: 100%;
+  top: -10%;
+  right: -50%;
+  padding: 10px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.footer-btn i {
+  background-color: #E0E0E0;
+  border-radius: 50px;
+  color: #fff;
+}
+
+@media screen and (width > 300px) and (width < 900px) {
+  .appointmetn h1 {
+    font-size: 11vw;
+  }
+
+  .appointmetn p {
+    font-size: 5vw;
+  }
+
+  .appointmetn .skin-btn button {
+    width: 50vw;
+    height: 10vh;
+    font-size: 4.5vw;
+    padding: 0vw 0vw;
+  }
+
+  .pack {
+    flex-direction: column;
+  }
+
+  .pacakage .pacakage-text {
+    width: 90%;
+    height: 50%;
+    margin-top: 5vw;
+  }
+
+  .pacakage-text h1 {
+    font-size: 8vw;
+  }
+
+  .pacakage-text p {
+    font-size: 4vw;
+  }
+
+  .pacakage-text h5 {
+    font-size: 4vw;
+  }
+
+  .pacakage-btn button {
+    width: 65vw;
+    height: 10vh;
+    font-size: 4.5vw;
+    padding: 0vw 0vw;
+  }
+
+  .pacakage .pacakage-img {
+    margin-top: 12vw;
+    width: 90%;
+    height: 80%;
+  }
+
+  .footer-btn i {
+    font-size: 4vw;
+    color: #000;
+  }
+}

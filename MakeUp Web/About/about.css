@@ -1,0 +1,582 @@
+@font-face {
+  font-family: "Angella White";
+  font-display: swap;
+  src: url("https://hannahraasch.de/wp-content/uploads/et-fonts/AngellaWhitePersonalUseFont-ywA8e.otf") format("opentype");
+}
+
+.about-me {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 6vw;
+  position: relative;
+}
+
+.makeUp-artist {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.makeUp-artist h1 {
+  font-size: 4vw;
+  font-weight: 200;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  color: #AE887B;
+  margin-bottom: 2vw;
+}
+
+.makeUp-artist h5 {
+  font-size: 2vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 1vw;
+}
+
+.makeUp-artist p {
+  font-size: 1.3vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  color: #000;
+  text-align: start;
+  /* margin-bottom: 2vw; */
+}
+
+.makeUp-artist button {
+  margin-top: 3vw;
+  width: 11vw;
+  height: 4vw;
+  border: none;
+  background: none;
+  font-size: 1.3vw;
+  font-weight: 400;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-optical-sizing: auto;
+  color: #A68181;
+  border-bottom: 2px solid #A68181;
+  margin-bottom: 2vw;
+  transition: all ease-in 2s;
+}
+
+.makeUp-artist-img {
+  width: 40%;
+  height: 80%;
+}
+
+.makeUp-btn i {
+  background-color: #E0E0E0;
+  color: #fff;
+  border-radius: 50px;
+  display: none;
+  margin-top: 1vw;
+  transition: all ease-in 1s;
+}
+
+.makeUp-btn {
+  display: flex;
+  align-items: center;
+  transition: all ease-in 2s;
+}
+
+.makeUp-artist-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+/* .makeUp-artist-img::before {
+  content: "";
+  position: absolute;
+  background: #EFDDCF;  
+  z-index: -1;
+  width: 100%;
+  top: 50%;
+  right: -50%;
+  padding: 10px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+} */
+
+/* About Hinnah--------------------------- */
+.about-hinnah {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-dev1 {
+  width: 55vw;
+  height: 100vh;
+}
+
+.about-dev1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-dev2 {
+  width: 40vw;
+  height: 100vh;
+  padding: 1vw 2vw;
+}
+
+.about-dev2 h1 {
+  font-size: 3.5vw;
+  font-weight: 200;
+  color: #222;
+  padding-bottom: 1vw;
+}
+
+.about-dev2 p {
+  font-size: 1.3vw;
+  font-weight: 200;
+  text-align: start;
+}
+
+.about-dev2 h4 {
+  margin-top: 2vw;
+  font-size: 1.9vw;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+.makeUp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.makeUp-list {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F5F5F5;
+}
+
+.makeUp-list-1,
+.makeUp-list-2,
+.makeUp-list-3 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 1vw;
+}
+
+.makeUp-list,
+h3 {
+  font-size: 2vw;
+  font-weight: 200;
+}
+
+.makeUp-list,
+p {
+  font-size: 1.5vw;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 1.6vw;
+  color: #666666;
+  line-height: 1.7;
+}
+
+.makeUpList-button {
+  display: flex;
+  align-items: center;
+
+}
+
+.makeUpList-button button {
+  margin-top: 1vw;
+  padding: 0vw 2vw;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #8D8181;
+  font-size: 1.1vw;
+  font-weight: 200;
+  color: #8D8181;
+}
+
+.makeUpList-button i {
+  background-color: #E0E0E0;
+  color: #fff;
+  border-radius: 50px;
+  display: none;
+  /* margin-top: 1.5vw; */
+  transition: all ease-in 1s;
+}
+
+/* Brands Logos------------------------- */
+.brands {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.brand-used {
+  width: 90%;
+  height: 40%;
+}
+
+.brand-logos {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vw;
+}
+
+.brand-used h1 {
+  font-size: 5vw;
+  font-weight: 300;
+  font-family: "Dancing Script", cursive;
+  color: #AE887B;
+}
+
+.brand-logo1,
+.brand-logo2,
+.brand-logo3,
+.brand-logo4,
+.brand-logo5,
+.brand-logo6,
+img {
+  width: 90%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* work Routine------------------------- */
+.work-routine {
+  min-width: 70%;
+  height: 50%;
+  margin-top: 2vw;
+  padding: 2vw 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.set-date {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 2vw;
+}
+
+
+.set-date h1 {
+  font-weight: 200;
+  font-size: 2.5vw;
+}
+
+.work {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 2vw;
+}
+
+.work p {
+  font-size: 1.3vw;
+  text-align: start;
+
+}
+
+.profile-imgage {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 2vw;
+}
+
+.footer-div1 h3 {
+  font-size: 1.5vw;
+}
+
+.footer-div1 p {
+  text-align: start;
+  font-size: 1.3vw;
+}
+
+.footer-div2 h3 {
+  font-size: .3vw;
+}
+
+.footer-div2 p {
+  text-align: start;
+  font-size: 1.3vw;
+}
+
+.counting {
+  display: flex;
+  align-items: center;
+}
+
+.counting input {
+  padding: 1vw 2vw;
+  background-color: #2F2D2D;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 30px;
+}
+
+.footer-div2 i {
+  background-color: #2F2D2D;
+  border-radius: 50px;
+  padding: 1vw 1vw;
+  color: #fff;
+}
+
+@media screen and (width > 300px) and (width <900px) {
+  .about-me {
+    flex-direction: column;
+    margin-top: 5vw;
+  }
+
+  .makeUp-artist {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .makeUp-artist h1 {
+    font-size: 10vw;
+  }
+
+  .makeUp-artist h5 {
+    font-size: 6vw;
+  }
+
+  .makeUp-artist p {
+    font-size: 3.5vw;
+  }
+
+  .makeUp-artist button {
+    width: 50vw;
+    height: 5vh;
+    font-size: 4vw;
+  }
+
+  .makeUp-btn i {
+    display: none !important;
+  }
+
+  .makeUp-artist-img {
+    width: 90%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-hinnah {
+    margin-top: 10vw;
+    flex-direction: column;
+  }
+
+  .about-dev1 {
+    width: 90vw;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-dev2 {
+    width: 90vw;
+    height: 60vh;
+    padding: 5vw 2vw;
+  }
+
+  .about-dev2 h1 {
+    font-size: 9vw;
+  }
+
+  .about-dev2 p {
+    font-size: 3.7vw;
+  }
+
+  .about-dev2 h4 {
+    font-size: 8vw;
+  }
+
+  .makeUp-list {
+    width: 90%;
+    height: fit-content;
+    flex-direction: column;
+    margin-top: 33vw;
+  }
+
+  .makeUp-list-1,
+  .makeUp-list-2,
+  .makeUp-list-3 {
+    width: 80%;
+    height: fit-content;
+  }
+
+  .makeUp-list h3 {
+    font-size: 7vw;
+    font-weight: 700;
+  }
+
+  .makeUp-list p {
+    font-size: 4.5vw;
+  }
+
+  .makeUpList-button button {
+    font-size: 4vw;
+  }
+
+  .brands {
+    width: 100vw;
+    height: fit-content;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .brand-logos {
+    width: 100%;
+    height: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    margin-top: 3vw;
+  }
+
+  .brand-used {
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 15vw;
+  }
+
+  .brand-used h1 {
+    font-size: 13vw;
+    font-weight: 800;
+  }
+
+  .brand-logo1 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .brand-logo2 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .brand-logo3 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .brand-logo4 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .brand-logo5 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .brand-logo6 img {
+    width: 40vw;
+    height: 7vh;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .work-routine {
+    width: 90vw;
+    flex-direction: column;
+  }
+
+  .set-date {
+    margin-top: 5vw;
+    width: 90%;
+  }
+
+  .set-date h1 {
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .work {
+    width: 90%;
+  }
+
+  .work p {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .footer-div1 {
+    width: 90%;
+  }
+
+  .footer-div1 h3 {
+    font-size: 4vw;
+  }
+
+  .footer-div1 p {
+    font-size: 3.5vw;
+  }
+
+  .footer-div2 a i {
+    padding: 3vw 3vw;
+    color: #fff;
+  }
+
+  .footer-btn button {
+    background-color: red;
+    border: 2px solid red;
+  }
+
+  .footer-btn i {
+    display: none !important;
+  }
+}

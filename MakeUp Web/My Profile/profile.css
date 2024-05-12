@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.profile {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5vw;
+  color: #AE887B;
+  font-weight: 200;
+}
+
+.weeding {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3vw;
+
+}
+
+.weed-img {
+  width: 40%;
+  height: 100%;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 1.3vw;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.swiper-pagination {
+  display: none;
+  /* color: #fff; */
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff !important;
+}
+
+.swiper-pagination-bullet {
+  color: #fff;
+}
+
+.weeding h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3vw;
+  color: #AE887B;
+  font-weight: 200;
+  display: block;
+}
+
+
+.weed-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 4vw;
+}
+
+.weeding-images {
+  width: 40%;
+  height: 90%;
+  /* background-color: orange; */
+}
+
+.weeding-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.party-makeUp {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: yellow; */
+  margin-top: 13vw;
+}
+
+.myWork-text {
+  padding: 3vw 2vw;
+}
+
+.party {
+  margin-top: 10vw;
+}
+
+.party h1 {
+  font-size: 3.5vw;
+}
+
+.more-profile {
+  width: 100vw;
+  height: 35vh;
+  /* background-color: red; */
+  margin-top: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.more-profile h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5vw;
+  color: #AE887B;
+  font-weight: 200;
+}
+
+.more-profile p {
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  font-weight: 200;
+  font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+}
+
+@media screen and (width >300px)and (width <900px) {
+
+  .profile h1 {
+    font-size: 12vw;
+  }
+
+  .weeding {
+    flex-direction: column;
+    gap: 12vw;
+  }
+
+  .weed-img {
+    /* margin-top: 20vw; */
+    width: 90%;
+    height: 45%;
+  }
+
+  .my-work-text {
+    margin-top: 2vw;
+  }
+
+  .weed-img h1 {
+    font-size: 12vw;
+  }
+
+  .weeding-images {
+    width: 90%;
+    height: 45%;
+  }
+
+  .myWork-text {
+    padding: 12vw 2vw;
+  }
+}
